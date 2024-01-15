@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial;
+}
+body{
+    height: 2000px;
+}
+.contet-area{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background-color:white;
+}
+.outerbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+    background-color: white;
+}
+.top-box{
+    border:1px solid rgb(214, 213, 213);
+    height: 405px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+    
+}
+.logoimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.logoimg img{
+    height: 50px;
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.textfield{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.textfield input{
+
+    height: 30px;
+    width: 260px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 4px; 
+    font-size: 14px;
+    padding: 4px 10px 4px 10px;
+    font-family: Roboto,Arial;
+}
+.textfield button{
+    height: 35px;
+    width: 280px;
+    border-radius: 8px; 
+    padding: 4px 10px 4px 10px;
+    border: none;
+    background-color:#16a8e6e7 ;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.or{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.or hr{
+    border: 1px solid rgba(122, 122, 122, 0.45);
+    width: 115px;
+    height: 0;
+}
+.or div{
+    margin: 0 8px 0 8px;
+    font-size: 14px;
+    font-family: Roboto,arial;
+    color: rgba(122, 122, 122, 0.705);
+    font-weight: bold;  
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.facebook button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+.facebook img{
+    height: 20px;
+    margin-right: 8px;
+}
+.facebook span{
+    color: rgb(1, 1, 125);
+    font-weight: 550;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+}
+.forget{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgb(1, 1, 125);
+}
+
+.middle-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    border:1px solid rgb(180, 179, 179);
+    height: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+    font-family: Roboto,Arial;
+    font-size: 15px;
+}
+.middle-box a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.end-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.app{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.app-link img{
+    height: 40px;
+    margin-right: 9px;
+}
